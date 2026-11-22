@@ -4,7 +4,6 @@ Notification microservice - entry point.
 
 Run:
     uvicorn app.main:app --reload --port 8084
-
 or:
     python -m app.main
 """
@@ -26,7 +25,9 @@ PORT = int(os.getenv("PORT", "8084"))
 eureka_client = EurekaClient(
     eureka_server="http://localhost:8761/eureka",
     app_name="NOTIFICATION",
-    instance_port=PORT
+    instance_port=PORT,
+    health_check_url=f"http://localhost:{PORT}/health",
+    status_page_url=f"http://localhost:{PORT}/info"
 )
 
 
@@ -45,7 +46,6 @@ async def lifespan(app: FastAPI):
         yield
 
     finally:
-        # Arrêter le client Eureka à la fermeture
         await eureka_client.stop()
         print("Notification Service arrêté.")
 
@@ -71,6 +71,21 @@ app = FastAPI(
     redoc_url="/redoc",
     lifespan=lifespan
 )
+
+
+# ---- Health endpoint ----
+@app.get("/health")
+def health():
+    return {"status": "UP"}
+
+
+# ---- Info endpoint ----
+@app.get("/info")
+def info():
+    return {
+        "name": "notification",
+        "version": "1.0.0"
+    }
 
 
 # Conserver le routeur existant
