@@ -22,6 +22,7 @@
         <spring-cloud.version>2023.0.1</spring-cloud.version>
     </properties>
 
+    <!-- Gestion des versions Spring Cloud -->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -35,7 +36,8 @@
     </dependencyManagement>
 
     <dependencies>
-        <!-- Spring Boot -->
+
+        <!-- Spring Boot Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -46,6 +48,14 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+
+        <!-- Tests JUnit et Spring Boot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
