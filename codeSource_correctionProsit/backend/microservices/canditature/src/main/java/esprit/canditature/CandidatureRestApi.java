@@ -3,7 +3,6 @@ package esprit.canditature;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpStatus;
@@ -43,21 +42,5 @@ public class CandidatureRestApi {
                         "port", instance.getPort(),
                         "uri", instance.getUri().toString()))
                 .toList();
-    }
-}
-
-@RestController
-@RequestMapping("/candidature")
-class CandidatureInstanceApi {
-
-    private final int port;
-
-    CandidatureInstanceApi(@Value("${server.port:8080}") int port) {
-        this.port = port;
-    }
-
-    @GetMapping("/instance")
-    public String getInstance() {
-        return "CANDIDATURE instance on port " + port;
     }
 }

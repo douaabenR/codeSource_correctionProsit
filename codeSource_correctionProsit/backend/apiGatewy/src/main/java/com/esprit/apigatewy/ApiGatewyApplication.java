@@ -29,10 +29,6 @@ public class ApiGatewyApplication {
                             .path("/candidatures/**")
                             .uri("lb://candidature"))
 
-                    .route("CandidatureInstance", r -> r
-                            .path("/candidature/**")
-                            .uri("lb://candidature"))
-
                     .route("Job", r -> r
                             .path("/jobs/**")
                             .filters(f -> f.rewritePath("/jobs(?<remaining>/?.*)", "/api/jobs${remaining}"))
