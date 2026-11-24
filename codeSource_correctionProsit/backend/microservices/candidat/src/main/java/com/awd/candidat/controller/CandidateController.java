@@ -10,6 +10,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +18,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/mic1/candidates")
@@ -34,6 +36,12 @@ public class CandidateController {
     @ApiResponse(responseCode = "200", description = "List of candidates")
     public List<CandidateResponse> findAll() {
         return candidateService.findAll();
+    }
+
+    @GetMapping("/instance")
+    @Operation(summary = "Identify this CANDIDAT service instance")
+    public Map<String, Object> instance(@Value("${server.port:8081}") int port) {
+        return Map.of("port", port, "service", "CANDIDAT");
     }
 
     @GetMapping("/{id}")

@@ -7,6 +7,8 @@ import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.env.Environment;
+import org.springframework.core.env.Profiles;
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -18,22 +20,29 @@ public class ApiGatewyApplication {
     }
 
     @Bean
-    public RouteLocator gatewayRoutes(RouteLocatorBuilder builder) {
-        return builder.routes()
+    public RouteLocator gatewayRoutes(RouteLocatorBuilder builder, Environment environment) {
+        RouteLocatorBuilder.Builder routes = builder.routes();
 
-                .route("Candidature", r -> r
-                        .path("/candidatures/**")
-                        .uri("lb://candidature"))
+        // The properties-routes profile uses the equivalent declarations in application.properties.
+        if (!environment.acceptsProfiles(Profiles.of("properties-routes"))) {
+            routes.route("Candidature", r -> r
+                            .path("/candidatures/**")
+                            .uri("lb://candidature"))
 
-                .route("Job", r -> r
-                        .path("/jobs/**")
-                        .filters(f -> f.rewritePath("/jobs(?<remaining>/?.*)", "/api/jobs${remaining}"))
-                        .uri("lb://job"))
+                    .route("CandidatureInstance", r -> r
+                            .path("/candidature/**")
+                            .uri("lb://candidature"))
 
-                .route("Candidat", r -> r
-                        .path("/candidat/**", "/candidats/**")
-                        .filters(f -> f.rewritePath("/candidats?(?<remaining>/?.*)", "/mic1/candidates${remaining}"))
-                        .uri("lb://candidat"))
+                    .route("Job", r -> r
+                            .path("/jobs/**")
+                            .filters(f -> f.rewritePath("/jobs(?<remaining>/?.*)", "/api/jobs${remaining}"))
+                            .uri("lb://job"));
+        }
+
+        return routes.route("Candidat", r -> r
+                            .path("/candidat/**", "/candidats/**", "/candidates/**")
+                            .filters(f -> f.rewritePath("/candidat(e)?s?(?<remaining>/?.*)", "/mic1/candidates${remaining}"))
+                            .uri("lb://candidat"))
 
                 .build();
     }

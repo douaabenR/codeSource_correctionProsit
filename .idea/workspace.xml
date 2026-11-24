@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31c6077-15ac-4e1d-8f8c-d0c9d36ef358" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/README .md" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/README .md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/erreur-eureka.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/src/main/java/tn/esprit/eureka/EurekaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/src/test/java/tn/esprit/eureka/EurekaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/apiGatewy/src/main/java/com/esprit/apigatewy/ApiGatewyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/apiGatewy/src/main/java/com/esprit/apigatewy/ApiGatewyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/apiGatewy/src/main/java/com/esprit/apigatewy/RandomLoadBalancerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/apiGatewy/src/main/java/com/esprit/apigatewy/RandomLoadBalancerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/apiGatewy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/apiGatewy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/eureka/erreur-eureka.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/candidat/src/main/java/com/awd/candidat/controller/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/candidat/src/main/java/com/awd/candidat/controller/CandidateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/canditature/src/main/java/esprit/canditature/CandidatureRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/canditature/src/main/java/esprit/canditature/CandidatureRestApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,61 +39,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2071311218014857" />
-      <entry key="MS500" value="3.0274099222157935" />
-      <entry key="S2" value="7.346606826716984" />
-      <entry key="S5" value="14.843700872072512" />
-      <entry key="S10" value="25.310729992787238" />
-      <entry key="S30" value="44.49962282071333" />
-      <entry key="S60" value="53.346425303297075" />
-      <entry key="M2" value="59.01382607174847" />
-      <entry key="M5" value="63.02152082411336" />
-      <entry key="M10" value="64.6858356619189" />
-      <entry key="M15" value="65.85895145139958" />
-      <entry key="M30" value="71.64962592545662" />
-      <entry key="H1" value="89.96139434507401" />
-      <entry key="H2" value="121.04743506376154" />
-      <entry key="H4" value="153.3941568306587" />
-      <entry key="D1" value="200.62409022191954" />
-      <entry key="W1" value="211.9789695219862" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.000000000000001" />
+      <entry key="S60" value="1.0000000343319053" />
+      <entry key="M2" value="1.0002036512243317" />
+      <entry key="M5" value="1.0580534089928295" />
+      <entry key="M10" value="1.7334702579684165" />
+      <entry key="M15" value="3.713452612182842" />
+      <entry key="M30" value="15.01844352974426" />
+      <entry key="H1" value="41.34865682752786" />
+      <entry key="H2" value="83.41049421423021" />
+      <entry key="H4" value="129.8163000901759" />
+      <entry key="D1" value="201.89741581251604" />
+      <entry key="W1" value="219.79533267188904" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="3.636012606671897E-261" />
-      <entry key="S10" value="8.510931824709235E-131" />
-      <entry key="S30" value="6.979473500927365E-44" />
-      <entry key="S60" value="3.7359632596650613E-22" />
-      <entry key="M2" value="2.733445142361666E-11" />
-      <entry key="M5" value="9.02208607800039E-5" />
-      <entry key="M10" value="0.01350358567860942" />
-      <entry key="M15" value="0.07428232611393198" />
-      <entry key="M30" value="0.5333517344448826" />
-      <entry key="H1" value="2.0740135931314096" />
-      <entry key="H2" value="4.756872186748699" />
-      <entry key="H4" value="7.47338623843984" />
-      <entry key="D1" value="11.073669098391884" />
-      <entry key="W1" value="11.862674595406316" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="4.554316845600186E-274" />
+      <entry key="S30" value="1.2207817810801096E-91" />
+      <entry key="S60" value="4.94094801860373E-46" />
+      <entry key="M2" value="3.143505369950907E-23" />
+      <entry key="M5" value="1.5121278213087596E-9" />
+      <entry key="M10" value="5.528277986106676E-5" />
+      <entry key="M15" value="0.0019009878489588089" />
+      <entry key="M30" value="0.08532192292036404" />
+      <entry key="H1" value="0.8295356594993304" />
+      <entry key="H2" value="3.008383604785224" />
+      <entry key="H4" value="5.94324034279037" />
+      <entry key="D1" value="10.658821421599544" />
+      <entry key="W1" value="11.798144459588057" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1354509827331856" />
-      <entry key="MS500" value="2.99094727565824" />
-      <entry key="S2" value="7.32238563821063" />
-      <entry key="S5" value="14.82109545950281" />
-      <entry key="S10" value="25.28497799532447" />
-      <entry key="S30" value="44.476847526253664" />
-      <entry key="S60" value="53.33097936555823" />
-      <entry key="M2" value="59.004739217127316" />
-      <entry key="M5" value="63.01758295089984" />
-      <entry key="M10" value="64.69689190587013" />
-      <entry key="M15" value="65.93048451378111" />
-      <entry key="M30" value="72.17844742522031" />
-      <entry key="H1" value="92.03030687446541" />
-      <entry key="H2" value="125.80026329715277" />
-      <entry key="H4" value="160.8649449739671" />
-      <entry key="D1" value="211.69721726902202" />
-      <entry key="W1" value="223.84156348389968" />
+      <entry key="MS100" value="0.9659363289248456" />
+      <entry key="MS500" value="0.9930924954370359" />
+      <entry key="S2" value="0.9982686325973925" />
+      <entry key="S5" value="0.9993070929904525" />
+      <entry key="S10" value="0.9996534864594093" />
+      <entry key="S30" value="0.9998844821426094" />
+      <entry key="S60" value="0.9999422737318784" />
+      <entry key="M2" value="1.0001747598173067" />
+      <entry key="M5" value="1.05804002734066" />
+      <entry key="M10" value="1.7335012263718925" />
+      <entry key="M15" value="3.7152661635739377" />
+      <entry key="M30" value="15.103021178346232" />
+      <entry key="H1" value="42.17613564184556" />
+      <entry key="H2" value="86.41630915495692" />
+      <entry key="H4" value="135.75746777194348" />
+      <entry key="D1" value="212.55571424806786" />
+      <entry key="W1" value="231.5933967550931" />
     </decayedShown>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
@@ -141,7 +134,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
