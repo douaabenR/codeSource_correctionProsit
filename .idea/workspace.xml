@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31c6077-15ac-4e1d-8f8c-d0c9d36ef358" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/canditature/src/main/java/esprit/canditature/CandidatureRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/canditature/src/main/java/esprit/canditature/CandidatureRestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/canditature/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/canditature/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/notification/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/notification/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/README .md" beforeDir="false" afterPath="$PROJECT_DIR$/codeSource_correctionProsit/README .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/erreur-eureka.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/src/main/java/tn/esprit/eureka/EurekaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/src/test/java/tn/esprit/eureka/EurekaApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000085216" />
-      <entry key="S5" value="1.0000374602784514" />
-      <entry key="S10" value="1.0064532570885716" />
-      <entry key="S30" value="1.252781161756741" />
-      <entry key="S60" value="1.6920728506334246" />
-      <entry key="M2" value="2.168207028134618" />
-      <entry key="M5" value="2.6246514141831057" />
-      <entry key="M10" value="3.022511323275123" />
-      <entry key="M15" value="3.775441306527451" />
-      <entry key="M30" value="9.18654428571178" />
-      <entry key="H1" value="27.35939651322477" />
-      <entry key="H2" value="58.356810060913844" />
-      <entry key="H4" value="90.60628255960945" />
-      <entry key="D1" value="137.6734208684949" />
-      <entry key="W1" value="148.98649674512734" />
+      <entry key="MS100" value="1.2071311218014857" />
+      <entry key="MS500" value="3.0274099222157935" />
+      <entry key="S2" value="7.346606826716984" />
+      <entry key="S5" value="14.843700872072512" />
+      <entry key="S10" value="25.310729992787238" />
+      <entry key="S30" value="44.49962282071333" />
+      <entry key="S60" value="53.346425303297075" />
+      <entry key="M2" value="59.01382607174847" />
+      <entry key="M5" value="63.02152082411336" />
+      <entry key="M10" value="64.6858356619189" />
+      <entry key="M15" value="65.85895145139958" />
+      <entry key="M30" value="71.64962592545662" />
+      <entry key="H1" value="89.96139434507401" />
+      <entry key="H2" value="121.04743506376154" />
+      <entry key="H4" value="153.3941568306587" />
+      <entry key="D1" value="200.62409022191954" />
+      <entry key="W1" value="211.9789695219862" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="6.103771741984148E-259" />
-      <entry key="S10" value="1.1027157145940244E-129" />
-      <entry key="S30" value="1.6392737331233033E-43" />
-      <entry key="S60" value="5.725547279788886E-22" />
-      <entry key="M2" value="3.3839003611774654E-11" />
-      <entry key="M5" value="9.826296128431745E-5" />
-      <entry key="M10" value="0.014092581178220091" />
-      <entry key="M15" value="0.07642693718883478" />
-      <entry key="M30" value="0.5409961718881752" />
-      <entry key="H1" value="2.0888239510253386" />
-      <entry key="H2" value="4.77382618736376" />
-      <entry key="H4" value="7.486692366310094" />
-      <entry key="D1" value="11.07695271618585" />
-      <entry key="W1" value="11.863177042630888" />
+      <entry key="S5" value="3.636012606671897E-261" />
+      <entry key="S10" value="8.510931824709235E-131" />
+      <entry key="S30" value="6.979473500927365E-44" />
+      <entry key="S60" value="3.7359632596650613E-22" />
+      <entry key="M2" value="2.733445142361666E-11" />
+      <entry key="M5" value="9.02208607800039E-5" />
+      <entry key="M10" value="0.01350358567860942" />
+      <entry key="M15" value="0.07428232611393198" />
+      <entry key="M30" value="0.5333517344448826" />
+      <entry key="H1" value="2.0740135931314096" />
+      <entry key="H2" value="4.756872186748699" />
+      <entry key="H4" value="7.47338623843984" />
+      <entry key="D1" value="11.073669098391884" />
+      <entry key="W1" value="11.862674595406316" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526379980439373" />
-      <entry key="MS500" value="0.9903428719330246" />
-      <entry key="S2" value="0.997576925272932" />
-      <entry key="S5" value="0.9990674470045805" />
-      <entry key="S10" value="1.0059613234497258" />
-      <entry key="S30" value="1.252522154412765" />
-      <entry key="S60" value="1.6918537406085805" />
-      <entry key="M2" value="2.1680475607122247" />
-      <entry key="M5" value="2.624661844455969" />
-      <entry key="M10" value="3.0361779380101535" />
-      <entry key="M15" value="3.8504536551172395" />
-      <entry key="M30" value="9.723649988237986" />
-      <entry key="H1" value="29.443434744312686" />
-      <entry key="H2" value="63.12675362283626" />
-      <entry key="H4" value="98.09046003951251" />
-      <entry key="D1" value="148.74984600676382" />
-      <entry key="W1" value="160.84959524131426" />
+      <entry key="MS100" value="1.1354509827331856" />
+      <entry key="MS500" value="2.99094727565824" />
+      <entry key="S2" value="7.32238563821063" />
+      <entry key="S5" value="14.82109545950281" />
+      <entry key="S10" value="25.28497799532447" />
+      <entry key="S30" value="44.476847526253664" />
+      <entry key="S60" value="53.33097936555823" />
+      <entry key="M2" value="59.004739217127316" />
+      <entry key="M5" value="63.01758295089984" />
+      <entry key="M10" value="64.69689190587013" />
+      <entry key="M15" value="65.93048451378111" />
+      <entry key="M30" value="72.17844742522031" />
+      <entry key="H1" value="92.03030687446541" />
+      <entry key="H2" value="125.80026329715277" />
+      <entry key="H4" value="160.8649449739671" />
+      <entry key="D1" value="211.69721726902202" />
+      <entry key="W1" value="223.84156348389968" />
     </decayedShown>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
@@ -107,40 +116,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EurekaApplication.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHELLCHECK.PATH": "C:\\Users\\douaa\\AppData\\Roaming\\JetBrains\\IntelliJIdea2026.2\\plugins\\Shell Script\\shellcheck.exe",
-    "Spring Boot.CandidatApplication.executor": "Run",
-    "Spring Boot.CanditatureApplication.executor": "Run",
-    "Spring Boot.EurekaApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/douaa/Downloads/codeSource_correctionProsit",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\douaa\\AppData\\Roaming\\JetBrains\\IntelliJIdea2026.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;Spring Boot.CandidatApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CanditatureApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/douaa/Downloads/codeSource_correctionProsit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\douaa\Downloads\codeSource_correctionProsit\codeSource_correctionProsit\backend\apiGatewy" />

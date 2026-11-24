@@ -5,7 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/codeSource_correctionProsit/backend/apiGatewy/pom.xml" />
-        <option value="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/codeSource_correctionProsit/backend/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/canditature/pom.xml" />
         <option value="$PROJECT_DIR$/codeSource_correctionProsit/backend/microservices/job/pom.xml" />
       </list>
